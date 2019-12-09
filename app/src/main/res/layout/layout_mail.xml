@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:paddingVertical="10dp"
+    android:padding="10dp"
+    android:id="@+id/layMail"
     android:layout_height="wrap_content" >
 
 
@@ -11,7 +12,6 @@
         android:id="@+id/ciProfile"
         android:layout_width="95dp"
         android:layout_height="95dp"
-        android:layout_marginStart="16dp"
         android:src="@drawable/personone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,7 +43,6 @@
         android:id="@+id/tvTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         rvMailList = findViewById(R.id.rvMailList);
 
         List<MailList> mailLists = new ArrayList<>();
-        mailLists.add(new MailList("Hello dude!", "Hi, I am Someone writinh this message.", "04:21", R.drawable.personone));
+        mailLists.add(new MailList("Hello dude!", "Hi, I am Someone writing this message.", "04:21", R.drawable.personone));
         mailLists.add(new MailList("My Assignment", "I have uploaded my assignment in the GitHub.", "06:10", R.drawable.persontwo));
         mailLists.add(new MailList("The Problem", "Hello Sir, I am facing problem in recycler view.", "02:43", R.drawable.personthree));
         mailLists.add(new MailList("Sample title", "And this is the sample message", "04:21", R.drawable.personfour));
